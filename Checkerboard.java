@@ -12,10 +12,10 @@ public class Checkerboard {
 	}
 
 	static void Odd() {
-		System.out.println("❑❑❑❑    ❑❑❑❑    ❑❑❑❑");
+		System.out.println("❑❑❑❑     ❑❑❑❑     ❑❑❑❑");
 	}
 	
 	static void Even() {
-		System.out.println("    ❑❑❑❑    ❑❑❑❑    ");
+		System.out.println("     ❑❑❑❑     ❑❑❑❑    ");
 	}
 }

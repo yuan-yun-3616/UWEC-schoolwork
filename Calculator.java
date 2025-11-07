@@ -13,7 +13,7 @@ public class Calculator {
 		double secondNumber;
 		String operator;
 		String roundingMode;
-		double result = 0;
+		double result;
 		String comparator;
 		
 		
@@ -78,7 +78,7 @@ public class Calculator {
 			
 			value = num1 * num2;
 			
-		} else if(operator.equals("/") || operator.equals("plus")) {
+		} else if(operator.equals("/") || operator.equals("divide")) {
 			if(num2 == 0) System.out.println("Can not divide by zero");
 			value = num1 / num2;
 			
